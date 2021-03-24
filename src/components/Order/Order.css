@@ -1,0 +1,106 @@
+.order {
+        width: 155px ;
+        height: auto; 
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: -0.006em;
+        color: #180303;
+        margin-left: 10px;
+
+        background-color: #FFFFFF;
+        flex-wrap: wrap;
+    
+}
+
+.img {
+     
+        width: 250px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position:  center;
+        background-size: contain;
+}
+
+.title {
+        text-transform: uppercase;
+       
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 20px;
+        color: rgb(224, 129, 129);
+}
+
+.text {
+        margin: auto;
+        font-size: 20px;
+        line-height: 20px;
+}
+
+.price {
+        font-size: 24px;
+        margin-top: 20px;
+}
+
+.pieces {
+        font-size: 20px;
+        margin-top: 10px;
+}
+
+.calorie {
+        font-size: 24px;
+        margin-top: 10px;
+}
+
+.btn {
+
+}
+
+.minus {
+        width: 50px;
+        height: 40px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(224, 129, 129);
+}
+
+.in {
+        width: 120px;
+        height: 37px;
+        border-bottom: 1px solid rgb(224, 129, 129) ;
+        margin-left: 15px;
+        text-align: center;
+}
+.plus {
+        width: 50px;
+        height: 40px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(224, 129, 129);
+        margin-left: 15px;
+}
+
+.add {
+        width: 220px;
+        height: 45px;
+        background: rgb(224, 129, 129);
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 30px;
+}
+
+.count {
+        width: 300px;
+        height: 30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+}
